@@ -1,0 +1,10 @@
+@font-face {
+    font-family: MDIcons;
+    src: url(MD-Icons.ttf);
+}
+
+table, th, td {
+    font-family: MDIcons;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
