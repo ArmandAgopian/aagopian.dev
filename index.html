@@ -8,15 +8,18 @@
         /* Style Definitions */
         p.MsoNormal, li.MsoNormal, div.MsoNormal {
             margin: 0;
-            font-size:15.0pt;
+            /*font-size:15.0pt;*/
             font-family:"Roboto","sans-serif";
-        }
-        div.WordSection1 {
-            page:WordSection1;
         }
         table {
             border-collapse: collapse;
             margin: 0 auto;
+            width: 90%;
+        }
+        @media (max-device-width: 800px), (max-width: 800px) {
+            table {
+                font-size: 250%;
+            }
         }
         table, td {
             border: 1px solid black;
