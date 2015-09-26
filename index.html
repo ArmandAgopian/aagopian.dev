@@ -5,22 +5,18 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <style>
-
-        /* Style Definitions */
+        @font-face {
+            src: url(MD-Icons.ttf);
+            font-family: "MD-Icons";
+        }
         p.MsoNormal, li.MsoNormal, div.MsoNormal {
             margin: 0;
-            /*font-size:15.0pt;*/
             font-family:"Roboto","sans-serif";
         }
         table {
             border-collapse: collapse;
             margin: 0 auto;
             width: 90%;
-        }
-        @media (max-device-width: 800px), (max-width: 800px) {
-            table {
-                font-size: 250%;
-            }
         }
         table, td {
             border: 1px solid black;
@@ -29,6 +25,7 @@
         body {
             margin: 0 auto;
             text-align: center;
+            font-size: 250%;
         }
         .changelog {
             font-family: "Roboto",sans-serif;
