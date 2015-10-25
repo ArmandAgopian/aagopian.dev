@@ -1,0 +1,29 @@
+{
+  "name": "AGithub457.github.io",
+  "version": "0.0.1",
+  "homepage": "AGithub.github.io",
+  "authors": [
+    "AGithub457 <armandag@comcast.net>"
+  ],
+  "description": "A place for MD-Icons",
+  "main": "index.html",
+  "keywords": [
+    "md",
+    "polymer",
+    "material",
+    "design",
+    "icons",
+    "svg"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.1.0"
+  }
+}
