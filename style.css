@@ -2,7 +2,7 @@
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 20px;
     font-weight: normal;
     line-height: 1.42857143;
     text-align: center;
@@ -21,7 +21,7 @@
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
     background-color: white;
-    font-size: 20px;
+    font-family: 'Lato', sans-serif;
 }
 
 .btn-github {
