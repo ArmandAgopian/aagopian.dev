@@ -1,6 +1,11 @@
 a {
     text-decoration: none;
 }
+
+body {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
 .btn {
     display: inline-block;
     padding: 6px 12px;
@@ -8,7 +13,6 @@ a {
     font-size: 20px;
     font-weight: normal;
     line-height: 1.42857143;
-    text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
@@ -24,7 +28,6 @@ a {
     -webkit-transition-duration: 0.2s;
     transition-duration: 0.2s;
     background-color: white;
-    font-family: 'Lato', sans-serif;
 }
 
 .btn:hover {
