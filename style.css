@@ -27,13 +27,16 @@ a {
     font-family: 'Lato', sans-serif;
 }
 
+.btn:hover {
+    color: white;
+}
+
 .btn-github {
     border: 2px solid #333;
 }
 
 .btn-github:hover {
     background-color: #333;
-    color: white;
 }
 
 .btn-linkedin {
@@ -42,7 +45,6 @@ a {
 
 .btn-linkedin:hover {
     background-color: #0077b5;
-    color: white;
 }
 
 .btn-instagram {
@@ -51,7 +53,6 @@ a {
 
 .btn-instagram:hover {
     background-color: #833ab4;
-    color: white;
 }
 
 .btn-twitter {
@@ -60,7 +61,6 @@ a {
 
 .btn-twitter:hover {
     background-color: #1da1f2;
-    color: white;
 }
 
 .btn-google {
@@ -69,9 +69,4 @@ a {
 
 .btn-google:hover {
     background-color: #dd4b39;
-    color: white;
-}
-
-.a {
-    text-decoration: none;
 }
