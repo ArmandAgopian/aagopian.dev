@@ -6,28 +6,72 @@ body {
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
-.btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 20px;
-    font-weight: normal;
-    line-height: 1.42857143;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 2px solid orange;
-    border-radius: 4px;
-    -webkit-transition-duration: 0.2s;
-    transition-duration: 0.2s;
-    background-color: white;
+
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #eee;
+        background: #282c35;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        color: #000;
+        background: #eee;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 2px solid orange;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        background-color: white;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 20px;
+        font-weight: normal;
+        line-height: 1.42857143;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 2px solid orange;
+        border-radius: 4px;
+        -webkit-transition-duration: 0.2s;
+        transition-duration: 0.2s;
+        background-color: #585858;
+        color: white;
+    }
 }
 
 .btn:hover {
