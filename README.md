@@ -1,3 +1,3 @@
-# AGithub457.github.io
+# aagopian.dev
 
-Just a website. Heavily WIP.
+Personal Website. Heavily WIP.
