@@ -6,7 +6,7 @@ export default function App() {
   return (
     <>
       <Spacer />
-      <Container fluid display="flex" justify="space-between">
+      <Container xs display="flex" justify="space-between">
         <Button
           onPress={() => {
             window.open('https://github.com/ArmandAgopian');
