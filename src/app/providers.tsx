@@ -6,14 +6,18 @@ import {ThemeProvider as NextThemesProvider} from 'next-themes';
 const lightTheme = createTheme({
   type: 'light',
   theme: {
-    //colors: {...}, // optional
+    colors: {
+      background: '#F5F5F5',
+    },
   },
 });
 
 const darkTheme = createTheme({
   type: 'dark',
   theme: {
-    //colors: {...}, // optional
+    colors: {
+      background: '#171717',
+    },
   },
 });
 
