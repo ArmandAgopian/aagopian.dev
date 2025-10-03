@@ -8,6 +8,8 @@
 
 # production
 /build
+/dist
+/.wrangler
 
 # misc
 .DS_Store
