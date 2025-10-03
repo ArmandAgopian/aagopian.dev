@@ -3,7 +3,7 @@
   "name": "aagopian-dev",
   "compatibility_date": "2025-10-02",
   "compatibility_flags": ["nodejs_compat"],
-  "main": "@tanstack/react-start/server-entry",
+  "main": "src/server.ts",
   "workers_dev": false,
   "vars": {
     "MY_VAR": "Hello from my var!"
