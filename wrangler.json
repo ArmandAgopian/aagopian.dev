@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "aagopian-dev",
+  "compatibility_date": "2025-10-02",
+  "compatibility_flags": ["nodejs_compat"],
+  "main": "@tanstack/react-start/server-entry",
+  "workers_dev": false,
+  "vars": {
+    "MY_VAR": "Hello from my var!"
+  },
+  "routes": [
+    {
+      "pattern": "aagopian.dev",
+      "custom_domain": true
+    }
+  ]
+}
